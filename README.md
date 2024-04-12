@@ -33,7 +33,7 @@ Object detection, one of the representative perception tasks, can be addressed t
   <tr>
     <td>COCO-Res101</td>
     <td>47.2</td>
-    <td><a href="model_coco_res101.zip" download>model</a></td>
+    <td><a href="[model_coco_res101.zip](https://pan.baidu.com/s/1kqdC5mnoKW1Nyu_F1oylzg?pwd=1111)" download>model</a></td>
   </tr>
   <tr>
     <td>COCO-SwinBase</td>
