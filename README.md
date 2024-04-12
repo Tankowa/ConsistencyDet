@@ -33,27 +33,27 @@ Object detection, one of the representative perception tasks, can be addressed t
   <tr>
     <td>COCO-Res101</td>
     <td>47.2</td>
-    <td><a href="[model_coco_res101.zip](https://pan.baidu.com/s/1kqdC5mnoKW1Nyu_F1oylzg?pwd=1111)" download>model</a></td>
+    <td><a href="https://pan.baidu.com/s/1Rj7TMGt1cOBubkRutypObA?pwd=1111" download>model</a></td>
   </tr>
   <tr>
     <td>COCO-SwinBase</td>
     <td>53.0</td>
-    <td><a href="model_coco_swinbase.zip" download>model</a></td>
+    <td><a href="https://pan.baidu.com/s/1zgfJip_HSx0FAB4EiyX8tA?pwd=1111" download>model</a></td>
   </tr>
   <tr>
     <td>LVIS-Res50</td>
     <td>32.2</td>
-    <td><a href="model_lvis_res50.zip" download>model</a></td>
+    <td><a href="https://pan.baidu.com/s/19ELAf3xNf6uYtILmyFFmvQ?pwd=1111" download>model</a></td>
   </tr>
   <tr>
     <td>LVIS-Res101</td>
     <td>33.1</td>
-    <td><a href="model_lvis_res101.zip" download>model</a></td>
+    <td><a href="https://pan.baidu.com/s/1wXPChzSKMVRHiB7DYDsG3Q?pwd=1111" download>model</a></td>
   </tr>
   <tr>
     <td>LVIS-SwinBase</td>
     <td>42.4</td>
-    <td><a href="model_lvis_swinbase.zip" download>model</a></td>
+    <td><a href="https://pan.baidu.com/s/1KpT-3ktSYM_R1n5hBn8Nsw?pwd=1111" download>model</a></td>
   </tr>
 </table>
 
@@ -110,7 +110,17 @@ python train_net.py --num-gpus 4 \
   --eval-only MODEL.WEIGHTS path/to/model.pth
 </pre>
 
-## 9.Validation
+## 9.Citation
+@misc{jiang2024consistencydet,
+      title={ConsistencyDet: Robust Object Detector with Denoising Paradigm of Consistency Model}, 
+      author={Lifan Jiang and Zhihui Wang and Changmiao Wang and Ming Li and Jiaxu Leng and Xindong Wu},
+      year={2024},
+      eprint={2404.07773},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+## 10.Acknowledgement
 A large part of the code is borrowed from DiffusionDet and Consistency models thanks for their works.
 <pre>
 @inproceedings{chen2023diffusiondet,
