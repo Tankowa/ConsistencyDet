@@ -8,7 +8,7 @@ Lifan Jiang,Zhihui Wang*,Changmiao Wang,Ming Li,Jiaxu Leng,Xindong Wu
 
 ### 1.2 The self-consistency of ConsistencyDet
 
-<img src="graphs/structure2.png" width="400" height="200"/>
+<img src="graphs/structure2.png" width="450" height="225"/>
 
 ### 1.3 Partial Detection Results on the COCO Dataset
 
@@ -18,7 +18,25 @@ Lifan Jiang,Zhihui Wang*,Changmiao Wang,Ming Li,Jiaxu Leng,Xindong Wu
 
 Object detection, a quintessential task in the realm of perceptual computing, can be tackled using a generative methodology. In the present study, we introduce a novel framework designed to articulate object detection as a denoising diffusion process, which operates on perturbed bounding boxes of annotated entities. This framework, termed ConsistencyDet, leverages an innovative denoising concept known as the Consistency Model. The hallmark of this model is its self-consistency feature, which empowers the model to map distorted information from any temporal stage back to its pristine state, thereby realizing a ``one-step denoising'' mechanism. Such an attribute markedly elevates the operational efficiency of the model, setting it apart from the conventional Diffusion Model. Throughout the training phase, ConsistencyDet initiates the diffusion sequence with noise-infused boxes derived from the ground-truth annotations and conditions the model to perform the denoising task. Subsequently, in the inference stage, the model employs a denoising sampling strategy that commences with bounding boxes randomly sampled from a normal distribution. Through iterative refinement, the model transforms an assortment of arbitrarily generated boxes into the definitive detections. Comprehensive evaluations employing standard benchmarks, such as MS-COCO and LVIS, corroborate that ConsistencyDet surpasses other leading-edge detectors in performance metrics. 
 
-## 3.Experimental results
+
+## 3.contributes 
+
+<ul>
+    <li>
+        <h3>点一</h3>
+        <p>[点一的内容]</p>
+    </li>
+    <li>
+        <h3>点二</h3>
+        <p>[点二的内容]</p>
+    </li>
+    <li>
+        <h3>点三</h3>
+        <p>[点三的内容]</p>
+    </li>
+</ul>
+
+## 4.Experimental results
 <table border="1">
   <tr>
     <th>Method</th>
@@ -57,7 +75,7 @@ Object detection, a quintessential task in the realm of perceptual computing, ca
   </tr>
 </table>
 
-## 4.Installation
+## 5.Installation
 1.Install anaconda, and create conda environment;
 <pre>
 conda create -n yourname python=3.8
@@ -73,7 +91,7 @@ python -m pip install -e detectron2
 pip3 install -r requirements.txt
 </pre>
 
-## 5.Data preparation
+## 6.Data preparation
 <pre>
 mkdir -p datasets/coco
 mkdir -p datasets/lvis
@@ -86,7 +104,7 @@ ln -s /path_to_lvis_dataset/lvis_v1_train.json datasets/lvis/lvis_v1_train.json
 ln -s /path_to_lvis_dataset/lvis_v1_val.json datasets/lvis/lvis_v1_val.json
 </pre>
 
-## 6.Prepare pretrain models
+## 7.Prepare pretrain models
 <pre>
 mkdir models
 cd models
@@ -97,20 +115,20 @@ wget https://github.com/ShoufaChen/DiffusionDet/releases/download/v0.1/torchvisi
 wget https://github.com/ShoufaChen/DiffusionDet/releases/download/v0.1/swin_base_patch4_window7_224_22k.pkl
 </pre>
 
-## 7.Training
+## 8.Training
 <pre>
 python train_net.py --num-gpus 4 \
   --config-file configs/diffdet.coco.res50.yaml
 </pre>
 
-## 8.Evaling
+## 9.Evaling
 <pre>
 python train_net.py --num-gpus 4 \
   --config-file configs/diffdet.yourdataset.yourbakbone.yaml \
   --eval-only MODEL.WEIGHTS path/to/model.pth
 </pre>
 
-## 9.Citation
+## 10.Citation
 @misc{jiang2024consistencydet,
       title={ConsistencyDet: Robust Object Detector with Denoising Paradigm of Consistency Model}, 
       author={Lifan Jiang and Zhihui Wang and Changmiao Wang and Ming Li and Jiaxu Leng and Xindong Wu},
@@ -120,7 +138,7 @@ python train_net.py --num-gpus 4 \
       primaryClass={cs.CV}
 }
 
-## 10.Acknowledgement
+## 11.Acknowledgement
 A large part of the code is borrowed from DiffusionDet and Consistency models thanks for their works.
 <pre>
 @inproceedings{chen2023diffusiondet,
