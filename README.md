@@ -4,15 +4,15 @@ Lifan Jiang,Zhihui Wang*,Changmiao Wang,Ming Li,Jiaxu Leng,Xindong Wu
 ## 1.Network Structure and Detection Results
 ### 1.1 Structure of the ConsistencyDet
 
-<img src="graphs/structure.jpg"/>
+<img src="graphs/structure.png"/>
 
 ### 1.2 The self-consistency of ConsistencyDet
 
-<img src="self-consistency.jpg"/>
+<img src="graphs/structure2.png"/>
 
 ### 1.3 Partial Detection Results on the COCO Dataset
 
-<img src="visualzation.jpg"/>
+<img src="graphs/visualzation.jpg"/>
 
 ## 2.Abstrat
 
