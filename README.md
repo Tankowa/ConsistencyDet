@@ -28,7 +28,7 @@ Object detection, one of the representative perception tasks, can be addressed t
   <tr>
     <td>COCO-Res50</td>
     <td>46.9</td>
-    <td><a href="model_coco_res50.zip" download>model</a></td>
+    <td><a href="https://pan.baidu.com/s/14GFs5oBZeV6XWk6xiNDmXg?pwd=1111">model</a></td>
   </tr>
   <tr>
     <td>COCO-Res101</td>
