@@ -23,16 +23,16 @@ Object detection, a quintessential task in the realm of perceptual computing, ca
 
 <ul>
     <li>
-        <h3>点一</h3>
-        <p>[点一的内容]</p>
+        <h3>One</h3>
+        <p>We conceptualize object detection as a generative denoising process and propose a novel methodological approach. In contrast to the established paradigm in DiffusionDet, which employs an equal number of iterations for noise addition and removal, our method represents a substantial advancement in enhancing the efficiency of the detection task.</p>
     </li>
     <li>
-        <h3>点二</h3>
-        <p>[点二的内容]</p>
+        <h3>Two</h3>
+        <p>In the proposed ConsistencyDet, we have engineered a noise addition and removal paradigm that does not impose specific architectural constraints, thereby allowing for flexible parameterization with a variety of neural network structures. This design choice significantly augments the model's practicality and adaptability for diverse applications.</p>
     </li>
     <li>
-        <h3>点三</h3>
-        <p>[点三的内容]</p>
+        <h3>Three</h3>
+        <p>In crafting the loss function for the proposed ConsistencyDet, we aggregate the individual loss values at time steps $t$ and $t-1$ subsequent to the model's predictions to compute the total loss. This methodology guarantees that the mapping of any pair of adjacent points along the temporal dimension to the axis origin maintains the highest degree of consistency. This attribute mirrors the inherent self-consistency principle central to the Consistency Model.</p>
     </li>
 </ul>
 
