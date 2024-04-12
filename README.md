@@ -12,7 +12,7 @@ Lifan Jiang,Zhihui Wang*,Changmiao Wang,Ming Li,Jiaxu Leng,Xindong Wu
 
 ### 1.3 Partial Detection Results on the COCO Dataset
 
-<img src="graphs/visualzation.jpg"/>
+<img src="graphs/visualization.png" width="500" height="600"/>
 
 ## 2.Abstrat
 
