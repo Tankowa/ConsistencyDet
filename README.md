@@ -129,6 +129,8 @@ python train_net.py --num-gpus 4 \
 </pre>
 
 ## 10.Citation
+
+<pre>
 @misc{jiang2024consistencydet,
       title={ConsistencyDet: Robust Object Detector with Denoising Paradigm of Consistency Model}, 
       author={Lifan Jiang and Zhihui Wang and Changmiao Wang and Ming Li and Jiaxu Leng and Xindong Wu},
@@ -137,6 +139,7 @@ python train_net.py --num-gpus 4 \
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
+</pre>
 
 ## 11.Acknowledgement
 A large part of the code is borrowed from DiffusionDet and Consistency models thanks for their works.
