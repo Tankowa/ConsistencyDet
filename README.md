@@ -4,7 +4,7 @@ Lifan Jiang,Zhihui Wang*,Changmiao Wang,Ming Li,Jiaxu Leng,Xindong Wu
 ## 1.Network Structure and Detection Results
 ### 1.1 Structure of the ConsistencyDet
 
-<img src="graphs/structure.png" width="600" height="200"/>
+<img src="graphs/structure.png" width="500" height="250"/>
 
 ### 1.2 The self-consistency of ConsistencyDet
 
