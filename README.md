@@ -8,11 +8,11 @@ Lifan Jiang,Zhihui Wang,Changmiao Wang,Ming Li,Jiaxu Leng,Xindong Wu
 
 ### 1.2 The self-consistency of ConsistencyDet:
 
-<img src="graphs/structure2.png" width="540" height="270"/>
+<img src="graphs/structure2.png" width="560" height="280"/>
 
 ### 1.3 Partial Detection Results on the COCO Dataset:
 
-<img src="graphs/visualization.png" width="600" height="300"/>
+<img src="graphs/visualization.png" width="660" height="330"/>
 
 ## 2.Abstrat
 
