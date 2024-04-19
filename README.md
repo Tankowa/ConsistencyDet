@@ -81,6 +81,7 @@ Object detection, a quintessential task in the realm of perceptual computing, ca
 conda create -n yourname python=3.8
 </pre>
 2.PyTorch ≥ 1.9.0 and torchvision that matches the PyTorch installation. You can install them together at [pytorch.org](https://pytorch.org/) to make sure of this.
+
 3.Install Detectron2
 <pre>
 git clone https://github.com/facebookresearch/detectron2.git
