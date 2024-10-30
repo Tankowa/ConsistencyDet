@@ -1,5 +1,4 @@
 # ConsistencyDet: Robust Object Detector with Denoising Paradigm of Consistency Model
-Lifan Jiang,Zhihui Wang,Changmiao Wang,Ming Li,Jiaxu Leng,Xindong Wu
 
 ## 1.Network Structure and Detection Results
 ### 1.1 Structure of the ConsistencyDet:
